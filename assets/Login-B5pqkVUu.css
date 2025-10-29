@@ -1,0 +1,100 @@
+@keyframes fade-up-f18e72c0 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-f18e72c0 {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+.login[data-v-f18e72c0] {
+  width: 36vw;
+  padding: 72px 24px 24px;
+  backdrop-filter: blur(10px) brightness(0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 380px;
+}
+.login h1[data-v-f18e72c0] {
+  margin: 0;
+  font: var(--font-h3);
+  font-weight: bold;
+  color: var(--white-500);
+}
+.login .description[data-v-f18e72c0] {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto 0;
+}
+.login .description p[data-v-f18e72c0] {
+  margin: 0;
+  padding: 0;
+  font: var(--font-body-1);
+  color: var(--primary-100);
+}
+.login .description p b[data-v-f18e72c0] {
+  color: var(--white-500);
+}
+.login .description ul[data-v-f18e72c0] {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.login .description ul li[data-v-f18e72c0] {
+  font: var(--font-body-2);
+  color: var(--white-500);
+}
+.login .description .code[data-v-f18e72c0] {
+  font: var(--font-h2);
+  color: var(--white-500);
+}
+.login .footer[data-v-f18e72c0] {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+.login .footer .terms[data-v-f18e72c0] {
+  display: inline;
+}
+.login .footer .terms span[data-v-f18e72c0] {
+  font: var(--font-caption);
+  color: var(--white-500);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: start;
+}
+.login .footer .terms span a[data-v-f18e72c0] {
+  font: var(--font-caption);
+  color: var(--primary-500);
+  transition: all 0.4s;
+}
+.login .footer .terms span a[data-v-f18e72c0]:hover {
+  color: var(--primary-400);
+}
+.direction-rtl .login[data-v-f18e72c0] {
+  left: auto;
+  right: 0;
+}

@@ -1,0 +1,33 @@
+@keyframes fade-up-b018e604 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-b018e604 {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+.title-field[data-v-b018e604] {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  align-items: start;
+}
+.title-field .textarea[data-v-b018e604],
+.title-field .field[data-v-b018e604] {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: var(--input-max-width);
+}

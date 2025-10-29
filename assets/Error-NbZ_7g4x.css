@@ -1,0 +1,28 @@
+@keyframes fade-up-1ef175fe {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-1ef175fe {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+.title[data-v-1ef175fe] {
+  font: var(--font-h3);
+  text-align: center;
+  margin-top: auto;
+}
+.empty[data-v-1ef175fe] {
+  margin: 0 0 auto;
+}

@@ -1,0 +1,415 @@
+@charset "UTF-8";
+@keyframes fade-up-ce845033 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-ce845033 {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+div.textarea[data-v-ce845033] {
+  display: flex;
+  flex-direction: column;
+}
+div.textarea > div[data-v-ce845033] {
+  margin: 0 0 8px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: var(--textarea-max-width);
+}
+div.textarea > div .placeholder[data-v-ce845033] {
+  font: var(--font-body-1);
+  color: var(--gray-80);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  background-color: transparent;
+  transition: all 0.4s;
+  pointer-events: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100% - 70px);
+}
+div.textarea > div textarea[data-v-ce845033] {
+  width: 100%;
+  padding: 20px 20px 9px;
+  min-height: 96px;
+  font: var(--font-body-1);
+  color: var(--dark-500);
+  background: var(--white-500);
+  border: 1px solid var(--gray-20);
+  border-radius: 10px;
+  outline: none;
+  color-scheme: var(--сolor-scheme);
+}
+@media (hover: hover) and (pointer: fine) {
+div.textarea > div textarea[data-v-ce845033] {
+    scrollbar-color: var(--dark-20) var(--white-10);
+    scrollbar-width: thin;
+}
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: var(--white-10);
+  border-radius: 20px;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-track, div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-corner {
+  background-color: var(--white-10);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-thumb {
+  background-color: var(--dark-20);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-thumb:hover {
+  background-color: var(--dark-500);
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-thumb:horizontal {
+  min-width: 40px;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-thumb:vertical {
+  min-height: 40px;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-button:single-button {
+  display: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+div.textarea > div textarea[data-v-ce845033] {
+  overflow: hidden;
+}
+div.textarea > div textarea[data-v-ce845033]::placeholder {
+  color: transparent;
+}
+div.textarea > div textarea[data-v-ce845033]:focus, div.textarea > div textarea[data-v-ce845033]:hover, div.textarea > div textarea[data-v-ce845033]:not(:placeholder-shown) {
+  border-color: var(--primary-500);
+}
+div.textarea > div textarea:focus:not(:placeholder-shown) + .placeholder[data-v-ce845033], div.textarea > div textarea:focus:focus + .placeholder[data-v-ce845033], div.textarea > div textarea:hover:not(:placeholder-shown) + .placeholder[data-v-ce845033], div.textarea > div textarea:hover:focus + .placeholder[data-v-ce845033], div.textarea > div textarea:not(:placeholder-shown):not(:placeholder-shown) + .placeholder[data-v-ce845033], div.textarea > div textarea:not(:placeholder-shown):focus + .placeholder[data-v-ce845033] {
+  color: var(--primary-80);
+}
+div.textarea > div textarea:focus:not(:placeholder-shown) + .placeholder + svg[data-v-ce845033]:not(.icon-info), div.textarea > div textarea:focus:focus + .placeholder + svg[data-v-ce845033]:not(.icon-info), div.textarea > div textarea:hover:not(:placeholder-shown) + .placeholder + svg[data-v-ce845033]:not(.icon-info), div.textarea > div textarea:hover:focus + .placeholder + svg[data-v-ce845033]:not(.icon-info), div.textarea > div textarea:not(:placeholder-shown):not(:placeholder-shown) + .placeholder + svg[data-v-ce845033]:not(.icon-info), div.textarea > div textarea:not(:placeholder-shown):focus + .placeholder + svg[data-v-ce845033]:not(.icon-info) {
+  fill: var(--primary-80);
+  stroke: var(--tertiary-80);
+}
+div.textarea > div textarea[data-v-ce845033]:disabled {
+  background-color: var(--light-10);
+  color: var(--dark-20);
+  border-color: var(--light-20);
+}
+div.textarea > div textarea:disabled:not(:placeholder-shown) + .placeholder[data-v-ce845033] {
+  color: var(--dark-20);
+}
+div.textarea > div textarea:disabled + .placeholder[data-v-ce845033] {
+  color: var(--dark-20);
+}
+div.textarea > div textarea:disabled + .placeholder + svg[data-v-ce845033]:not(.icon-info) {
+  fill: var(--dark-20);
+  stroke: var(--dark-80);
+}
+div.textarea > div textarea:disabled ~ .actions-block[data-v-ce845033] {
+  display: none;
+}
+div.textarea > div textarea.without-placeholder[data-v-ce845033] {
+  padding-top: 9;
+}
+div.textarea > div textarea:not(:placeholder-shown) + .placeholder[data-v-ce845033], div.textarea > div textarea:focus + .placeholder[data-v-ce845033] {
+  font: var(--font-label);
+  top: 8px;
+  transform: none;
+  background: transparent;
+}
+div.textarea > div textarea ~ .actions-block .clean[data-v-ce845033] {
+  opacity: 0;
+}
+div.textarea > div textarea:not(:placeholder-shown) ~ .actions-block .clean[data-v-ce845033] {
+  opacity: 1;
+}
+div.textarea > div textarea[data-v-ce845033]:-webkit-autofill, div.textarea > div textarea[data-v-ce845033]:-webkit-autofill:hover, div.textarea > div textarea[data-v-ce845033]:-webkit-autofill:focus, div.textarea > div textarea[data-v-ce845033]:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+div.textarea > div textarea[data-v-ce845033]::-webkit-outer-spin-button, div.textarea > div textarea[data-v-ce845033]::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+div.textarea > div textarea[data-v-ce845033] {
+  resize: none;
+}
+div.textarea > div textarea.clearable[data-v-ce845033] {
+  padding-right: 40px;
+}
+div.textarea > div textarea.clearable.info[data-v-ce845033] {
+  padding-right: 80px;
+}
+div.textarea > div textarea.info[data-v-ce845033] {
+  padding-right: 40px;
+}
+div.textarea > div textarea.info.clearable[data-v-ce845033] {
+  padding-right: 80px;
+}
+div.textarea > div .actions-block[data-v-ce845033] {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  right: 8px;
+  top: 8px;
+}
+div.textarea > div .actions-block svg[data-v-ce845033] {
+  margin: 0 8px;
+}
+div.textarea > div svg.icon-info[data-v-ce845033] {
+  fill: var(--primary-80);
+  stroke: var(--tertiary-500);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+div.textarea > div svg.icon-info[data-v-ce845033]:hover {
+  fill: var(--primary-500);
+  stroke: var(--tertiary-500);
+}
+div.textarea > div svg[data-v-ce845033]:not(.icon-info) {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  fill: var(--dark-500);
+  stroke: var(--dark-80);
+}
+div.textarea.with-icon > div textarea[data-v-ce845033] {
+  padding-left: 52px;
+}
+div.textarea.with-icon > div .placeholder[data-v-ce845033] {
+  left: 53px;
+}
+div.textarea > .error[data-v-ce845033] {
+  font: var(--font-label);
+  color: var(--secondary-500) !important;
+  min-height: 11px;
+}
+div.textarea.with-error > div textarea[data-v-ce845033] {
+  border-color: var(--secondary-500) !important;
+}
+div.textarea.with-error > div textarea:not(:placeholder-shown) + .placeholder[data-v-ce845033],
+div.textarea.with-error > div textarea:focus + .placeholder[data-v-ce845033] {
+  color: var(--secondary-500) !important;
+}
+div.textarea.with-error > div textarea:not(:placeholder-shown) + .placeholder + svg[data-v-ce845033],
+div.textarea.with-error > div textarea:focus + .placeholder + svg[data-v-ce845033] {
+  fill: var(--secondary-500) !important;
+  stroke: var(--secondary-80) !important;
+}
+div.textarea.light > div textarea[data-v-ce845033] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+div.textarea.light > div svg[data-v-ce845033] {
+  height: 18px;
+  wigth: 18px;
+}
+div.textarea.light > div textarea:not(:placeholder-shown) + .placeholder[data-v-ce845033],
+div.textarea.light > div textarea:focus + .placeholder[data-v-ce845033] {
+  display: none;
+}
+div.textarea.with-placeholder > div textarea[data-v-ce845033] {
+  padding-top: 12px;
+}
+div.textarea.with-placeholder > div textarea:not(:placeholder-shown) + .placeholder[data-v-ce845033],
+div.textarea.with-placeholder > div textarea:focus + .placeholder[data-v-ce845033] {
+  display: flex;
+  top: -6px;
+  background: var(--white-500);
+}
+div.textarea.noerror > div[data-v-ce845033] {
+  margin: 0;
+}
+div.textarea.noerror > .error[data-v-ce845033] {
+  display: none;
+}
+div.textarea.inside textarea[data-v-ce845033] {
+  border: none;
+  background-color: var(--light-20);
+}
+div.textarea.preview textarea[data-v-ce845033] {
+  overflow: auto;
+  max-height: 280px;
+}
+div.textarea.rtl > div .placeholder[data-v-ce845033],
+.direction-rtl div.textarea > div .placeholder[data-v-ce845033] {
+  left: auto;
+  right: 20px;
+}
+div.textarea.rtl > div textarea.clearable[data-v-ce845033],
+.direction-rtl div.textarea > div textarea.clearable[data-v-ce845033] {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+div.textarea.rtl > div textarea.clearable.info[data-v-ce845033],
+.direction-rtl div.textarea > div textarea.clearable.info[data-v-ce845033] {
+  padding-left: 80px;
+  padding-right: 20px;
+}
+div.textarea.rtl > div textarea.info[data-v-ce845033],
+.direction-rtl div.textarea > div textarea.info[data-v-ce845033] {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+div.textarea.rtl > div textarea.info.clearable[data-v-ce845033],
+.direction-rtl div.textarea > div textarea.info.clearable[data-v-ce845033] {
+  padding-left: 80px;
+  padding-right: 20px;
+}
+div.textarea.rtl > div .actions-block[data-v-ce845033],
+.direction-rtl div.textarea > div .actions-block[data-v-ce845033] {
+  left: 8px;
+  right: auto;
+}
+div.textarea.rtl > div svg[data-v-ce845033]:not(.icon-info),
+.direction-rtl div.textarea > div svg[data-v-ce845033]:not(.icon-info) {
+  left: auto;
+  right: 16px;
+}
+div.textarea.rtl.with-icon > div textarea[data-v-ce845033],
+.direction-rtl div.textarea.with-icon > div textarea[data-v-ce845033] {
+  padding-right: 52px;
+}
+div.textarea.rtl.with-icon > div textarea[data-v-ce845033]:not(.clearable):not(.info),
+.direction-rtl div.textarea.with-icon > div textarea[data-v-ce845033]:not(.clearable):not(.info) {
+  padding-left: 20px;
+}
+div.textarea.rtl.with-icon > div .placeholder[data-v-ce845033],
+.direction-rtl div.textarea.with-icon > div .placeholder[data-v-ce845033] {
+  left: auto;
+  right: 53px;
+}@keyframes fade-up-7d378a99 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-7d378a99 {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+.upload[data-v-7d378a99] {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.dropzone[data-v-7d378a99] {
+  border: 2px dashed var(--gray-20);
+  border-radius: 10px;
+  background: transparent;
+  transition: all 0.4s;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  min-height: 100px;
+}
+.dropzone > button.loader[data-v-7d378a99] {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 72px;
+  max-width: 120px;
+}
+.dropzone > p[data-v-7d378a99] {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  gap: 8px;
+  font: var(--font-body-2);
+  color: var(--gray-80);
+  transition: all 0.2s;
+  margin: 0;
+  width: 100%;
+  min-height: 48px;
+}
+.dropzone > p svg[data-v-7d378a99] {
+  width: 24px;
+  height: 24px;
+  fill: var(--gray-80);
+  margin: 0 auto;
+  transition: all 0.4s;
+}
+.dropzone > p.loading[data-v-7d378a99] {
+  opacity: 0;
+  pointer-events: none;
+  transition: none;
+}
+.dropzone[data-v-7d378a99]:hover {
+  background: var(--white-80);
+  border-color: var(--primary-500);
+}
+.dropzone:hover > p[data-v-7d378a99] {
+  color: var(--dark-500);
+}
+.dropzone:hover > p svg[data-v-7d378a99] {
+  fill: var(--dark-500);
+}
+.dropzone.over[data-v-7d378a99] {
+  opacity: 0.3;
+}
+.dropzone.light > p[data-v-7d378a99] {
+  opacity: 0;
+}
+.dropzone.light:hover > p[data-v-7d378a99] {
+  opacity: 1;
+}
+.dropzone.square-image[data-v-7d378a99] {
+  width: 180px;
+  height: 180px;
+}
+.dropzone.loading[data-v-7d378a99] {
+  border: 2px dashed var(--gray-10);
+  cursor: progress;
+}
+.dropzone.loading[data-v-7d378a99]:hover {
+  border: 2px dashed var(--gray-10);
+}

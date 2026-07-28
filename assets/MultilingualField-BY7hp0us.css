@@ -1,0 +1,33 @@
+@keyframes fade-up-fd514c31 {
+0% {
+    opacity: 0;
+    transform: translateY(50px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+@keyframes fade-center-fd514c31 {
+0% {
+    opacity: 0;
+    filter: blur(4px);
+}
+100% {
+    opacity: 1;
+    filter: blur(0);
+}
+}
+.title-field[data-v-fd514c31] {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  align-items: start;
+}
+.title-field .textarea[data-v-fd514c31],
+.title-field .field[data-v-fd514c31] {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: var(--input-max-width);
+}
